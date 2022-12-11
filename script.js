@@ -5,8 +5,6 @@ const cartBtn = document.querySelector('#cart-btn')
 const navbar = document.querySelector('.navbar')
 const menuBtn = document.querySelector('#menu-btn')
 
-
-
 searchBtn.addEventListener('click', ()=>{
     searchForm.classList.toggle('active');
     document.addEventListener('click', (e)=>{
